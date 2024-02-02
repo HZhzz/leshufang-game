@@ -1,0 +1,41 @@
+
+ht.png
+size: 356,103
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ht_03
+  rotate: false
+  xy: 331, 76
+  size: 23, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+ht_05
+  rotate: false
+  xy: 331, 60
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+ht_1
+  rotate: false
+  xy: 2, 2
+  size: 108, 99
+  orig: 108, 99
+  offset: 0, 0
+  index: -1
+ht_2
+  rotate: false
+  xy: 222, 3
+  size: 107, 98
+  orig: 107, 98
+  offset: 0, 0
+  index: -1
+ht_3
+  rotate: false
+  xy: 112, 2
+  size: 108, 99
+  orig: 108, 99
+  offset: 0, 0
+  index: -1

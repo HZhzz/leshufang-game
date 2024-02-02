@@ -1,0 +1,27 @@
+
+shanzhu.png
+size: 333,110
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guo
+  rotate: true
+  xy: 2, 2
+  size: 106, 108
+  orig: 106, 108
+  offset: 0, 0
+  index: -1
+hua
+  rotate: true
+  xy: 112, 2
+  size: 106, 108
+  orig: 106, 108
+  offset: 0, 0
+  index: -1
+miao
+  rotate: true
+  xy: 222, 2
+  size: 106, 109
+  orig: 106, 109
+  offset: 0, 0
+  index: -1

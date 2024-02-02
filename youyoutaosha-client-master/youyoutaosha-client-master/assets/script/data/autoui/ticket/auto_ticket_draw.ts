@@ -1,0 +1,125 @@
+const {ccclass} = cc._decorator;
+
+@ccclass
+export default class auto_ticket_draw extends cc.Component {
+	ticket_draw: cc.Node;
+	ScrollView: cc.Node;
+	view: cc.Node;
+	content: cc.Node;
+	ticket_node_draw: cc.Node;
+	layout: cc.Node;
+	ticket_node_draw_pt_icon: cc.Node;
+	ticket_node_draw_pt_title: cc.Node;
+	ticket_node_draw_pt_lab: cc.Node;
+	ticket_node_draw_pt_lab2: cc.Node;
+	ticket_node_draw_doudouicon: cc.Node;
+	ticket_node_draw_doudou_title: cc.Node;
+	ticket_node_draw_doudou_lab: cc.Node;
+	ticket_node_draw_mine: cc.Node;
+	draw_pt_mine_title: cc.Node;
+	draw_pt_mine_time: cc.Node;
+	draw_pt_mine_title2: cc.Node;
+	draw_pt_mine_deoc: cc.Node;
+	draw_pt_mine_jc_node: cc.Node;
+	layout2: cc.Node;
+	draw_pt_mine_jc_title: cc.Node;
+	draw_pt_mine_jc_lab: cc.Node;
+	draw_pt_mine_jc_title2: cc.Node;
+	draw_pt_mine_cy_node: cc.Node;
+	waiting_node: cc.Node;
+	draw_pt_mine_cy_title: cc.Node;
+	layout3: cc.Node;
+	draw_pt_mine_cy_doce0: cc.Node;
+	draw_pt_mine_cy_doce: cc.Node;
+	draw_pt_mine_cy_doce2: cc.Node;
+	layout4: cc.Node;
+	draw_pt_mine_cy_lab: cc.Node;
+	draw_pt_mine_cy_lab2: cc.Node;
+	btn_outDraw: cc.Node;
+	btn_quchumine_lab: cc.Node;
+	btn_inDraw: cc.Node;
+	btn_quchumine_lab2: cc.Node;
+	loading_node: cc.Node;
+	loadingLabel: cc.Node;
+	result_node: cc.Node;
+	resultLabel: cc.Node;
+	draw_icno: cc.Node;
+	recently_lottery: cc.Node;
+	recently_lottery_title: cc.Node;
+	recently_lottery_title_lab: cc.Node;
+	recently_ScrollView: cc.Node;
+	view_recently: cc.Node;
+	content_recently: cc.Node;
+	btn_share: cc.Node;
+	lab_share_name: cc.Node;
+	btn_canyu: cc.Node;
+	lab_canyu: cc.Node;
+	btn_close: cc.Node;
+	btn_close_1: cc.Node;
+	edit_seach: cc.Node;
+	lab_seach_content: cc.Node;
+	btn_role: cc.Node;
+
+	public static URL:string = "db://assets/resources/prefab/ticket/ticket_draw.prefab"
+
+    onLoad () {
+		this.ticket_draw = this.node
+		this.ScrollView = this.ticket_draw.getChildByName("ScrollView");
+		this.view = this.ScrollView.getChildByName("view");
+		this.content = this.view.getChildByName("content");
+		this.ticket_node_draw = this.content.getChildByName("ticket_node_draw");
+		this.layout = this.ticket_node_draw.getChildByName("layout");
+		this.ticket_node_draw_pt_icon = this.layout.getChildByName("ticket_node_draw_pt_icon");
+		this.ticket_node_draw_pt_title = this.layout.getChildByName("ticket_node_draw_pt_title");
+		this.ticket_node_draw_pt_lab = this.layout.getChildByName("ticket_node_draw_pt_lab");
+		this.ticket_node_draw_pt_lab2 = this.layout.getChildByName("ticket_node_draw_pt_lab2");
+		this.ticket_node_draw_doudouicon = this.ticket_node_draw.getChildByName("ticket_node_draw_doudouicon");
+		this.ticket_node_draw_doudou_title = this.ticket_node_draw.getChildByName("ticket_node_draw_doudou_title");
+		this.ticket_node_draw_doudou_lab = this.ticket_node_draw.getChildByName("ticket_node_draw_doudou_lab");
+		this.ticket_node_draw_mine = this.ticket_node_draw.getChildByName("ticket_node_draw_mine");
+		this.draw_pt_mine_title = this.ticket_node_draw_mine.getChildByName("draw_pt_mine_title");
+		this.draw_pt_mine_time = this.ticket_node_draw_mine.getChildByName("draw_pt_mine_time");
+		this.draw_pt_mine_title2 = this.ticket_node_draw_mine.getChildByName("draw_pt_mine_title2");
+		this.draw_pt_mine_deoc = this.ticket_node_draw_mine.getChildByName("draw_pt_mine_deoc");
+		this.draw_pt_mine_jc_node = this.ticket_node_draw_mine.getChildByName("draw_pt_mine_jc_node");
+		this.layout2 = this.draw_pt_mine_jc_node.getChildByName("layout2");
+		this.draw_pt_mine_jc_title = this.layout2.getChildByName("draw_pt_mine_jc_title");
+		this.draw_pt_mine_jc_lab = this.layout2.getChildByName("draw_pt_mine_jc_lab");
+		this.draw_pt_mine_jc_title2 = this.layout2.getChildByName("draw_pt_mine_jc_title2");
+		this.draw_pt_mine_cy_node = this.ticket_node_draw_mine.getChildByName("draw_pt_mine_cy_node");
+		this.waiting_node = this.draw_pt_mine_cy_node.getChildByName("waiting_node");
+		this.draw_pt_mine_cy_title = this.waiting_node.getChildByName("draw_pt_mine_cy_title");
+		this.layout3 = this.waiting_node.getChildByName("layout3");
+		this.draw_pt_mine_cy_doce0 = this.layout3.getChildByName("draw_pt_mine_cy_doce0");
+		this.draw_pt_mine_cy_doce = this.layout3.getChildByName("draw_pt_mine_cy_doce");
+		this.draw_pt_mine_cy_doce2 = this.layout3.getChildByName("draw_pt_mine_cy_doce2");
+		this.layout4 = this.waiting_node.getChildByName("layout4");
+		this.draw_pt_mine_cy_lab = this.layout4.getChildByName("draw_pt_mine_cy_lab");
+		this.draw_pt_mine_cy_lab2 = this.layout4.getChildByName("draw_pt_mine_cy_lab2");
+		this.btn_outDraw = this.waiting_node.getChildByName("btn_outDraw");
+		this.btn_quchumine_lab = this.btn_outDraw.getChildByName("btn_quchumine_lab");
+		this.btn_inDraw = this.waiting_node.getChildByName("btn_inDraw");
+		this.btn_quchumine_lab2 = this.btn_inDraw.getChildByName("btn_quchumine_lab2");
+		this.loading_node = this.draw_pt_mine_cy_node.getChildByName("loading_node");
+		this.loadingLabel = this.loading_node.getChildByName("loadingLabel");
+		this.result_node = this.draw_pt_mine_cy_node.getChildByName("result_node");
+		this.resultLabel = this.result_node.getChildByName("resultLabel");
+		this.draw_icno = this.ticket_node_draw_mine.getChildByName("draw_icno");
+		this.recently_lottery = this.ticket_node_draw.getChildByName("recently_lottery");
+		this.recently_lottery_title = this.recently_lottery.getChildByName("recently_lottery_title");
+		this.recently_lottery_title_lab = this.recently_lottery_title.getChildByName("recently_lottery_title_lab");
+		this.recently_ScrollView = this.recently_lottery.getChildByName("recently_ScrollView");
+		this.view_recently = this.recently_ScrollView.getChildByName("view_recently");
+		this.content_recently = this.view_recently.getChildByName("content_recently");
+		this.btn_share = this.recently_lottery.getChildByName("btn_share");
+		this.lab_share_name = this.btn_share.getChildByName("lab_share_name");
+		this.btn_canyu = this.recently_lottery.getChildByName("btn_canyu");
+		this.lab_canyu = this.btn_canyu.getChildByName("lab_canyu");
+		this.btn_close = this.ticket_node_draw.getChildByName("btn_close");
+		this.btn_close_1 = this.btn_close.getChildByName("btn_close_1");
+		this.edit_seach = this.ticket_node_draw.getChildByName("edit_seach");
+		this.lab_seach_content = this.edit_seach.getChildByName("lab_seach_content");
+		this.btn_role = this.ticket_node_draw.getChildByName("btn_role");
+
+    }
+}

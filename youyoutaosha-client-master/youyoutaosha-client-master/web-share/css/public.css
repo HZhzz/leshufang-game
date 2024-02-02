@@ -1,0 +1,302 @@
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-family: 'Microsoft YaHei';
+	box-sizing: border-box !important;
+	font-size: 0.28rem;
+	/*color: #333;*/
+}
+
+ol, li, ul, dl, dt, dd {
+	list-style: none;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	/* 解决IOS默认滑动很卡的情况 */
+	-webkit-overflow-scrolling: touch;
+}
+
+html, body {
+	height: 100%;
+	/*font-size: 100%;*/
+}
+
+/* 禁止缩放表单 */
+input[type="submit"], input[type="reset"], input[type="button"], input {
+	resize: none;
+	border: none;
+}
+
+/* 取消按鈕 輸入框亮框 */
+input, button, select, textarea {
+	outline: none;
+	border: 0;
+}
+
+/* 取消链接高亮  */
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* 设置HTML5元素为块 */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/* 图片自适应 */
+img {
+	width: 100%;
+	height: auto;
+	display: block;
+	border: none;
+	width: auto \9; /* ie8 */
+	-ms-interpolation-mode: bicubic; /*为了照顾ie图片缩放失真*/
+	-webkit-touch-callout: none;
+	-webkit-touch-callout:none; /*系统默认菜单被禁用*/
+	  -webkit-user-select:none; /*webkit浏览器*/
+	  -khtml-user-select:none; /*早期浏览器*/
+	  -moz-user-select:none;/*火狐*/
+	  -ms-user-select:none; /*IE10*/
+	  user-select:none;
+}
+
+em, i {
+	font-style: normal;
+}
+
+textarea {
+	resize: none; /*禁用了文本的拖拉，尤其在谷歌下*/
+}
+
+select {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+
+p {
+	word-wrap: break-word; /* 不够的单词自动换行 而不会被截掉 */
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+	font-family: 'Microsoft YaHei', Tahoma, Arial, sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+	outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+}
+
+input {
+	font-family: 'Microsoft YaHei';
+	border: 0;
+	background: none;
+}
+
+input::placeholder {
+	color: #86420b;
+}
+
+/*单行溢出*/
+.one-txt-cut {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+/*多行溢出 手机端使用*/
+.txt-cut {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.mainColor {
+	color: #dbb76b;
+}
+table th{
+	font-weight: normal;
+}
+
+/* 移动端点击a链接出现蓝色背景问题解决 */
+a:active, a:visited, a:hover {
+	background: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
+}
+
+.overflow {
+	overflow: hidden;
+}
+.layui-layer-msg .layui-layer-content{
+	color: #fff !important;
+}
+
+/*主颜色*/
+.fontCo11{
+	color: #c5c5c5;
+}
+.fontCo10{
+	color: #909090;
+}
+.fontCo9{
+	color: #999;
+}
+.fontCo6{
+	color: #666;
+}
+.fontCoM{
+	color: #522100;
+}
+.fontCoZ{
+	color: #50270c;
+}
+.fontCoQZ{
+	color: #93561d;
+}
+input::placeholder, textarea::placeholder{
+	color: #93561d;
+}
+.fontCoW{
+	color: #fff;
+}
+.fontCoY{
+	color: #fff1cf;
+}
+.fontCoH{
+	color: #69707f;
+}
+.fontCoB{
+	color: #1375db;
+}
+.fontCoR{
+	color: #ff3c32;
+}
+.fontCoG{
+	color: #1d764d;
+}
+.fontCoG1{
+	color: #58895e;
+}
+.fontCoQ{
+	color: #005868;
+}
+.bgM{
+	background: #8c6745;
+}
+.bgY{
+	background: #ded0a3;
+}
+.bgR{
+	background: #f21d4d;
+}
+.bgB{
+	background: #0d1754;
+}
+.bgZ{
+	background: #45328f;
+}
+.bgTW{
+	background: rgba(255,255,255,0.09);
+}
+.bg6W{
+	background: rgba(255,255,255,0.6);
+}
+.bg3B{
+	background: rgba(0,0,0,0.3);
+}
+.bgQ{
+	background: #92a22d;
+}
+.bgW{
+	background: #fff;
+}
+.bgG{
+	background: #b89459;
+}
+
+.bgDY{
+	background: #c1d472;
+}
+.font20{
+	font-size: 0.20rem;
+}
+.font22{
+	font-size: 0.22rem;
+}
+.font24{
+	font-size: 0.24rem;
+}
+.font26{
+	font-size: 0.26rem;
+}
+.font28{
+	font-size: 0.28rem;
+}
+.font30{
+	font-size: 0.3rem;
+}
+.font35{
+	font-size: 0.35rem;
+}
+
+/*//背景渐变-从上到下*/
+.bjTB{
+	background: #011248; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#011248, #6b43b7); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#011248, #6b43b7); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#011248, #6b43b7); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#011248, #6b43b7); /* Standard syntax */
+}
+/*//背景渐变-对角线*/
+.btnLR{
+	background: #ec782f; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left top, #ec782f, #f6c453); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #ec782f, #f6c453); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #ec782f, #f6c453); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #ec782f, #f6c453); /* Standard syntax */
+}
+/*//背景渐变-从左到右*/
+.btn {
+	background: #a86a25; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, #a86a25 , #e7ac58); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #a86a25, #e7ac58); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #a86a25, #e7ac58); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #a86a25 , #e7ac58); /* Standard syntax */
+}
+

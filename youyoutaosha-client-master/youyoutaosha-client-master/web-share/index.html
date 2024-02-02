@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+    <title>乐游世界</title>
+    <!-- <link rel="icon" href="./img/logo.png" type="image/x-icon"/> -->
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script>
+        function rem(size) {
+            var clientW = document.documentElement.clientWidth;
+            var bili = clientW / size;
+            var fontSize = bili * 100;
+            document.getElementsByTagName("html")[0].style.fontSize = fontSize + "px"
+        }
+        rem(750);
+        document.addEventListener('plusready', function (a) {
+            var first = null;
+            plus.key.addEventListener('backbutton', function () {
+                //首次按键，提示‘再按一次退出应用’
+                if (!first) {
+                    first = new Date().getTime();
+                    layer.msg('再按一次退出应用', { time: 1000 });//用自定义toast提示最好
+                    setTimeout(function () {
+                        first = null;
+                    }, 1000);
+                } else {
+                    if (new Date().getTime() - first < 1000) {
+                        plus.runtime.quit();
+                    }
+                }
+            }, false);
+        });
+    </script>
+</head>
+
+<body>
+    <!-- <img class="bgimg" src="./img/bg_login.png"> -->
+    <img src="./img/bg_login.png" alt="">
+    <center class="bottom">
+        <img class="desc" src="./img/zi.png" alt="">
+        <br>
+        <img class="download" id="download" src="./img/logo.png" alt="">
+        <br>
+        <img class="text" src="./img/icon2.png" alt="">
+    </center>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <!-- <script src="layer/layer.js"></script> -->
+    <script src="js/md5.js"></script>
+    <script src="js/login.js"></script>
+    <script>
+        $(function () {
+            var bodyHeight = document.documentElement.clientHeight;
+            $(".box").css("height", bodyHeight + 'px');
+        })
+    </script>
+</body>
+
+</html>

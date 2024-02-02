@@ -1,0 +1,27 @@
+
+hlg.png
+size: 200,79
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hlg-1
+  rotate: false
+  xy: 84, 23
+  size: 58, 54
+  orig: 58, 54
+  offset: 0, 0
+  index: -1
+hlg-2
+  rotate: true
+  xy: 144, 19
+  size: 58, 54
+  orig: 58, 54
+  offset: 0, 0
+  index: -1
+hlg-3
+  rotate: false
+  xy: 2, 2
+  size: 80, 75
+  orig: 80, 75
+  offset: 0, 0
+  index: -1

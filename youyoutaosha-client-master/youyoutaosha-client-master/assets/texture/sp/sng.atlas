@@ -1,0 +1,27 @@
+
+sng.png
+size: 169,28
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Hus
+  rotate: true
+  xy: 2, 3
+  size: 23, 63
+  orig: 27, 64
+  offset: 4, 0
+  index: -1
+guo
+  rotate: true
+  xy: 67, 3
+  size: 23, 53
+  orig: 24, 53
+  offset: 0, 0
+  index: -1
+sng-fy
+  rotate: true
+  xy: 122, 2
+  size: 24, 45
+  orig: 24, 45
+  offset: 0, 0
+  index: -1

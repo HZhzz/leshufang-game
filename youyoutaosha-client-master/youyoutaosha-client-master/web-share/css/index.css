@@ -1,0 +1,71 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    /* height: 100%; */
+    background: url(../img/bg_login1.png);
+    /* background-position: 10% 10%; */
+    /* background-size: cover; */
+    background-size: 100% 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bgimg {
+    display: none;
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    bottom: 0;
+}
+
+img {
+    display: block;
+}
+
+.logo img {
+    /*    width: 650;*/
+    height: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.logo p {
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.desc {
+    width: 80%;
+}
+
+.download {
+    width: 50%;
+}
+
+.download :focus {
+    scale: 1.1;
+}
+
+.text {
+    width: 60%;
+}
+
+
+.bottom {
+    position: fixed;
+    bottom: 1cm;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

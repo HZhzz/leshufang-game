@@ -1,0 +1,20 @@
+{
+    "version": "1.7.1",
+    "serverRootDir": "https://sunstones-public.oss-cn-beijing.aliyuncs.com/test2",
+    "resourceRootDir": "/Users/sunlei/Documents/Github/space-zhixiang/ccc-lelegeyou/build/jsb-link",
+    "genManifestDir": "",
+    "localServerPath": "",
+    "hotAddressArray": [
+        "https://ccc.leshufang.cn/update",
+        "https://sunstones-public.oss-cn-beijing.aliyuncs.com/test2"
+    ],
+    "buildTime": 1706500312911,
+    "genTime": 1706500312911,
+    "genVersion": null,
+    "region": "oss-cn-beijing",
+    "accessKeyId": "LTAI5tGGwzZrFw5dHZT51o3G",
+    "accessKeySecret": "zuqUBUrkwPbGikIKCh7YfHHGFOVIu3",
+    "bucket": "youyoutaosha-cocos/update",
+    "shareBucket": "",
+    "h5location": ""
+}

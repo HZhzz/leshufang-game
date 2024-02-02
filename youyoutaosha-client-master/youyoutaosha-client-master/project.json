@@ -1,0 +1,8 @@
+{
+  "engine": "cocos2d-html5",
+  "packages": "packages",
+  "version": "2.4.5",
+  "id": "ee5eede2-8ae2-450a-8b25-e54f38bcaaa9",
+  "isNew": false,
+  "description": "一个基于CocosCreator编辑器的客户端游戏框架"
+}

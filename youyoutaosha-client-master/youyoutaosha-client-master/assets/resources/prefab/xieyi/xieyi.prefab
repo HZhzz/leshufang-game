@@ -1,0 +1,2956 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false,
+    "readonly": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "xieyi",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 10
+      },
+      {
+        "__id__": 15
+      },
+      {
+        "__id__": 18
+      },
+      {
+        "__id__": 30
+      },
+      {
+        "__id__": 66
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 81
+      },
+      {
+        "__id__": 82
+      }
+    ],
+    "_prefab": {
+      "__id__": 83
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 1624
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        375,
+        812,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "model",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      }
+    ],
+    "_prefab": {
+      "__id__": 5
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 1624
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "38050af4-592b-4233-908a-6a87572a149f"
+    },
+    "_type": 1,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": {
+      "__uuid__": "14f3afc0-77da-4ad1-9612-2ea019deeca8"
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "alignMode": 1,
+    "_target": null,
+    "_alignFlags": 45,
+    "_left": 0,
+    "_right": 0,
+    "_top": 0,
+    "_bottom": 0,
+    "_verticalCenter": 0,
+    "_horizontalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 400,
+    "_originalHeight": 320,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "726gYEDL9O56UZ3y4xl6h9",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "bg",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 7
+      },
+      {
+        "__id__": 8
+      }
+    ],
+    "_prefab": {
+      "__id__": 9
+    },
+    "_opacity": 150,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 1624
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 6
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "a23235d1-15db-4b95-8439-a2e005bfff91"
+    },
+    "_type": 0,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 6
+    },
+    "_enabled": true,
+    "alignMode": 1,
+    "_target": null,
+    "_alignFlags": 45,
+    "_left": 0,
+    "_right": 0,
+    "_top": 0,
+    "_bottom": 0,
+    "_verticalCenter": 0,
+    "_horizontalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 100,
+    "_originalHeight": 100,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "1eZpLLWMNMKoWn/DYtxdAQ",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "btn_close",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 11
+      },
+      {
+        "__id__": 12
+      },
+      {
+        "__id__": 13
+      }
+    ],
+    "_prefab": {
+      "__id__": 14
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 48,
+      "height": 48
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -324.801,
+        696.269,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 10
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "1ceab885-1540-4d3a-bed1-ef20b1aa3a1d"
+    },
+    "_type": 0,
+    "_sizeMode": 1,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": {
+      "__uuid__": "ab435e53-ad37-4b0f-81bd-f02d89c4f432"
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Button",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 10
+    },
+    "_enabled": true,
+    "_normalMaterial": null,
+    "_grayMaterial": null,
+    "duration": 0.1,
+    "zoomScale": 1.2,
+    "clickEvents": [],
+    "_N$interactable": true,
+    "_N$enableAutoGrayEffect": false,
+    "_N$transition": 3,
+    "transition": 3,
+    "_N$normalColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_N$pressedColor": {
+      "__type__": "cc.Color",
+      "r": 211,
+      "g": 211,
+      "b": 211,
+      "a": 255
+    },
+    "pressedColor": {
+      "__type__": "cc.Color",
+      "r": 211,
+      "g": 211,
+      "b": 211,
+      "a": 255
+    },
+    "_N$hoverColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "hoverColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_N$disabledColor": {
+      "__type__": "cc.Color",
+      "r": 124,
+      "g": 124,
+      "b": 124,
+      "a": 255
+    },
+    "_N$normalSprite": null,
+    "_N$pressedSprite": null,
+    "pressedSprite": null,
+    "_N$hoverSprite": null,
+    "hoverSprite": null,
+    "_N$disabledSprite": null,
+    "_N$target": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 10
+    },
+    "_enabled": true,
+    "alignMode": 1,
+    "_target": null,
+    "_alignFlags": 9,
+    "_left": 26.199000000000012,
+    "_right": 0,
+    "_top": 91.731,
+    "_bottom": 0,
+    "_verticalCenter": 0,
+    "_horizontalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 0,
+    "_originalHeight": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "80NnROozFP1KtBJyloZ0U8",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "item",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": false,
+    "_components": [
+      {
+        "__id__": 16
+      }
+    ],
+    "_prefab": {
+      "__id__": 17
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 25.2
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 1
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -375.239,
+        640.622,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 15
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_string": "《海洋星球》隐私政策",
+    "_N$string": "《海洋星球》隐私政策",
+    "_fontSize": 16,
+    "_lineHeight": 20,
+    "_enableWrapText": true,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
+    "_N$horizontalAlign": 0,
+    "_N$verticalAlign": 1,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 3,
+    "_N$cacheMode": 1,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "8cZGWBK15I2JFSsl7NyfOi",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Scrollys",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [
+      {
+        "__id__": 19
+      }
+    ],
+    "_active": false,
+    "_components": [
+      {
+        "__id__": 26
+      },
+      {
+        "__id__": 27
+      },
+      {
+        "__id__": 28
+      }
+    ],
+    "_prefab": {
+      "__id__": 29
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 1450
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        -84.332,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "viewys",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 18
+    },
+    "_children": [
+      {
+        "__id__": 20
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 23
+      },
+      {
+        "__id__": 24
+      }
+    ],
+    "_prefab": {
+      "__id__": 25
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 1450
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "contentys",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 19
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 21
+      }
+    ],
+    "_prefab": {
+      "__id__": 22
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 7846.799999999999
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 1
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        724.954,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Layout",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 20
+    },
+    "_enabled": true,
+    "_layoutSize": {
+      "__type__": "cc.Size",
+      "width": 300,
+      "height": 200
+    },
+    "_resize": 1,
+    "_N$layoutType": 2,
+    "_N$cellSize": {
+      "__type__": "cc.Size",
+      "width": 40,
+      "height": 40
+    },
+    "_N$startAxis": 0,
+    "_N$paddingLeft": 0,
+    "_N$paddingRight": 0,
+    "_N$paddingTop": 0,
+    "_N$paddingBottom": 0,
+    "_N$spacingX": 0,
+    "_N$spacingY": 0,
+    "_N$verticalDirection": 1,
+    "_N$horizontalDirection": 0,
+    "_N$affectedByScale": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "a0faXcaTxAdrt33ktizbNC",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Mask",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 19
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_spriteFrame": null,
+    "_type": 0,
+    "_segments": 64,
+    "_N$alphaThreshold": 0,
+    "_N$inverted": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 19
+    },
+    "_enabled": true,
+    "alignMode": 1,
+    "_target": null,
+    "_alignFlags": 45,
+    "_left": 0,
+    "_right": 0,
+    "_top": 0,
+    "_bottom": 0,
+    "_verticalCenter": 0,
+    "_horizontalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 750,
+    "_originalHeight": 1450,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "3d2DAKIbdIf4CzoD0tCpnh",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 18
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": null,
+    "_type": 1,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.ScrollView",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 18
+    },
+    "_enabled": true,
+    "horizontal": false,
+    "vertical": true,
+    "inertia": true,
+    "brake": 0.75,
+    "elastic": true,
+    "bounceDuration": 0.23,
+    "scrollEvents": [],
+    "cancelInnerEvents": true,
+    "_N$content": {
+      "__id__": 20
+    },
+    "content": {
+      "__id__": 20
+    },
+    "_N$horizontalScrollBar": null,
+    "_N$verticalScrollBar": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 18
+    },
+    "_enabled": true,
+    "alignMode": 1,
+    "_target": null,
+    "_alignFlags": 45,
+    "_left": 0,
+    "_right": 0,
+    "_top": 171.332,
+    "_bottom": 2.6680000000000064,
+    "_verticalCenter": 0,
+    "_horizontalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 750,
+    "_originalHeight": 1450,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "924aGXJglPApAYVIiqljGD",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Scrollyh",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [
+      {
+        "__id__": 31
+      }
+    ],
+    "_active": false,
+    "_components": [
+      {
+        "__id__": 62
+      },
+      {
+        "__id__": 63
+      },
+      {
+        "__id__": 64
+      }
+    ],
+    "_prefab": {
+      "__id__": 65
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 1450
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        -84.332,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "viewyh",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 30
+    },
+    "_children": [
+      {
+        "__id__": 32
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 59
+      },
+      {
+        "__id__": 60
+      }
+    ],
+    "_prefab": {
+      "__id__": 61
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 1450
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "contentyh",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 31
+    },
+    "_children": [
+      {
+        "__id__": 33
+      },
+      {
+        "__id__": 36
+      },
+      {
+        "__id__": 39
+      },
+      {
+        "__id__": 42
+      },
+      {
+        "__id__": 45
+      },
+      {
+        "__id__": 48
+      },
+      {
+        "__id__": 51
+      },
+      {
+        "__id__": 54
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 57
+      }
+    ],
+    "_prefab": {
+      "__id__": 58
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 1450
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 1
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        724.954,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "item4",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 32
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 34
+      }
+    ],
+    "_prefab": {
+      "__id__": 35
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 605.2
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 1
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -375.239,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 33
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_string": "加入和使用《海洋星球》表明您已经阅读并同意本协议，您的会员活动会遵从本协议。鉴于《海洋星球》并非是关乎国计民生或者垄断的行业及企业，因此您对本使用协议不认同的，完全可以选择不加入和使用《海洋星球》。\n\n本协议由您与北京黑蚂蚁字节科技有限公司共同缔结，具有合同效力。\n\n本协议中协议双方合称协议方，北京黑蚂蚁字节科技有限公司在协议中亦称为“《海洋星球》”。\n\n一、协议内容及签署\n1、本协议内容包括协议正文及所有《海洋星球》已经发布的或将来可能发布的各类规则。所有规则为本协议不可分割的组成部分，与协议正文具有同等法律效力。除另行明确声明外，任何《海洋星球》及其关联公司提供的服务均受本协议约束。但法律法规另有强制性规定的，依其规定。\n\n2、您在注册《海洋星球》账户时点击提交“我已阅读并且同意《海洋星球》的使用协议”即视为您接受本协议及各类规则，并同意受其约束。您应当在使用《海洋星球》服务之前认真阅读全部协议内容并确保完全理解协议内容，如您对协议有任何疑问的，应向《海洋星球》咨询。但无论您事实上是否在使用《海洋星球》服务之前认真阅读了本协议内容，只要您注册、正在或者继续使用《海洋星球》服务，则视为接受本协议。\n\n3、您承诺接受并遵守本协议的约定。如果您不同意本协议的约定，您应立即停止注册程序或停止使用《海洋星球》服务。\n\n4、《海洋星球》有权根据需要不时地制订、修改本协议及/或各类规则，并以平台公示的方式进行公告。变更后的协议和规则一经在平台公布后，立即自动生效。《海洋星球》的最新的协议和规则以及平台公告可供您随时登录查阅，您也应当经常性的登录查阅最新的协议和规则以及平台公告以了解《海洋星球》最新动态。如您不同意相关变更，应当立即停止使用《海洋星球》服务。您继续使用服务的，即表示您接受经修订的协议和规则。本协议和规则（及其各自的不时修订）条款具有可分割性，任一条款被视为违法、无效、被撤销、变更或因任何理由不可执行，并不影响其他条款的合法性、有效性和可执行性。\n",
+    "_N$string": "加入和使用《海洋星球》表明您已经阅读并同意本协议，您的会员活动会遵从本协议。鉴于《海洋星球》并非是关乎国计民生或者垄断的行业及企业，因此您对本使用协议不认同的，完全可以选择不加入和使用《海洋星球》。\n\n本协议由您与北京黑蚂蚁字节科技有限公司共同缔结，具有合同效力。\n\n本协议中协议双方合称协议方，北京黑蚂蚁字节科技有限公司在协议中亦称为“《海洋星球》”。\n\n一、协议内容及签署\n1、本协议内容包括协议正文及所有《海洋星球》已经发布的或将来可能发布的各类规则。所有规则为本协议不可分割的组成部分，与协议正文具有同等法律效力。除另行明确声明外，任何《海洋星球》及其关联公司提供的服务均受本协议约束。但法律法规另有强制性规定的，依其规定。\n\n2、您在注册《海洋星球》账户时点击提交“我已阅读并且同意《海洋星球》的使用协议”即视为您接受本协议及各类规则，并同意受其约束。您应当在使用《海洋星球》服务之前认真阅读全部协议内容并确保完全理解协议内容，如您对协议有任何疑问的，应向《海洋星球》咨询。但无论您事实上是否在使用《海洋星球》服务之前认真阅读了本协议内容，只要您注册、正在或者继续使用《海洋星球》服务，则视为接受本协议。\n\n3、您承诺接受并遵守本协议的约定。如果您不同意本协议的约定，您应立即停止注册程序或停止使用《海洋星球》服务。\n\n4、《海洋星球》有权根据需要不时地制订、修改本协议及/或各类规则，并以平台公示的方式进行公告。变更后的协议和规则一经在平台公布后，立即自动生效。《海洋星球》的最新的协议和规则以及平台公告可供您随时登录查阅，您也应当经常性的登录查阅最新的协议和规则以及平台公告以了解《海洋星球》最新动态。如您不同意相关变更，应当立即停止使用《海洋星球》服务。您继续使用服务的，即表示您接受经修订的协议和规则。本协议和规则（及其各自的不时修订）条款具有可分割性，任一条款被视为违法、无效、被撤销、变更或因任何理由不可执行，并不影响其他条款的合法性、有效性和可执行性。\n",
+    "_fontSize": 16,
+    "_lineHeight": 20,
+    "_enableWrapText": true,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
+    "_N$horizontalAlign": 0,
+    "_N$verticalAlign": 1,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 3,
+    "_N$cacheMode": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "d2dewOJVFPKrqSXwkcWYcb",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "item5",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 32
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 37
+      }
+    ],
+    "_prefab": {
+      "__id__": 38
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 505.20000000000005
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 1
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -375.239,
+        -605.2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 36
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_string": "二、账户管理\n1、申请资格\n\n您应当是具备完全民事权利能力和完全民事行为能力的自然人。若您不具备前述主体资格，则您及您的监护人应承担因此而导致的一切后果，且《海洋星球》有权注销（永久冻结）您的《海洋星球》账户，并向您及您的监护人索偿或者追偿。若您不具备前述主体资格，则需要监护人同意您方可注册成为《海洋星球》会员，否则您和您的监护人应承担因此而导致的一切后果，且《海洋星球》有权注销（永久冻结）您的《海洋星球》账户，并向您及您的监护人索偿或者追偿。\n\n《海洋星球》并无能力对您的民事权利能力和民事行为能力进行实质性审查，因此一旦您进行了注册，《海洋星球》可以视为您具备完全民事权利能力和完全民事行为能力。\n\n2、账户\n\n在您签署本协议，完成会员注册程序或以其他《海洋星球》允许的方式实际使用《海洋星球》服务时，《海洋星球》会向您提供唯一编号的《海洋星球》账户ID（以下亦称账户）。\n\n您应当妥善保护您的账户安全，您应对您的账户和密码的安全，以及对通过您的账户实施的行为负责。除非经过正当法律程序，且征得《海洋星球》的同意，否则，账户和密码不得以任何方式转让、赠与或继承。如果发现任何人可能危及您的账户安全的情形时，您应当立即以有效方式通知《海洋星球》，要求《海洋星球》暂停该账户相关服务。您理解《海洋星球》对您的请求采取行动需要合理时间，《海洋星球》对在采取行动前已经产生的后果（包括但不限于您的任何损失）不承担任何责任，但《海洋星球》未能在合理时间内采取行动的情况除外。您认可您在注册、使用《海洋星球》服务过程中提供、形成的数据等相关信息的所有权及其他相关权利属于《海洋星球》，《海洋星球》有权使用上述信息。\n",
+    "_N$string": "二、账户管理\n1、申请资格\n\n您应当是具备完全民事权利能力和完全民事行为能力的自然人。若您不具备前述主体资格，则您及您的监护人应承担因此而导致的一切后果，且《海洋星球》有权注销（永久冻结）您的《海洋星球》账户，并向您及您的监护人索偿或者追偿。若您不具备前述主体资格，则需要监护人同意您方可注册成为《海洋星球》会员，否则您和您的监护人应承担因此而导致的一切后果，且《海洋星球》有权注销（永久冻结）您的《海洋星球》账户，并向您及您的监护人索偿或者追偿。\n\n《海洋星球》并无能力对您的民事权利能力和民事行为能力进行实质性审查，因此一旦您进行了注册，《海洋星球》可以视为您具备完全民事权利能力和完全民事行为能力。\n\n2、账户\n\n在您签署本协议，完成会员注册程序或以其他《海洋星球》允许的方式实际使用《海洋星球》服务时，《海洋星球》会向您提供唯一编号的《海洋星球》账户ID（以下亦称账户）。\n\n您应当妥善保护您的账户安全，您应对您的账户和密码的安全，以及对通过您的账户实施的行为负责。除非经过正当法律程序，且征得《海洋星球》的同意，否则，账户和密码不得以任何方式转让、赠与或继承。如果发现任何人可能危及您的账户安全的情形时，您应当立即以有效方式通知《海洋星球》，要求《海洋星球》暂停该账户相关服务。您理解《海洋星球》对您的请求采取行动需要合理时间，《海洋星球》对在采取行动前已经产生的后果（包括但不限于您的任何损失）不承担任何责任，但《海洋星球》未能在合理时间内采取行动的情况除外。您认可您在注册、使用《海洋星球》服务过程中提供、形成的数据等相关信息的所有权及其他相关权利属于《海洋星球》，《海洋星球》有权使用上述信息。\n",
+    "_fontSize": 16,
+    "_lineHeight": 20,
+    "_enableWrapText": true,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
+    "_N$horizontalAlign": 0,
+    "_N$verticalAlign": 1,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 3,
+    "_N$cacheMode": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "6fcH39Ge5CyLSXJL3Fe+18",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "item13",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 32
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 40
+      }
+    ],
+    "_prefab": {
+      "__id__": 41
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 645.1999999999999
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 1
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -375.239,
+        -1110.4,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 39
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_string": "三、《海洋星球》服务使用规范及处理规定\n在使用《海洋星球》服务过程中，您承诺遵守下列使用规范：\n\n1、会员承诺其注册信息的正确性。\n\n2、如果会员提供给《海洋星球》的资料有变更，请及时通知《海洋星球》做出相应的修改。\n\n3、会员不得出现恶意注册恶意点击恶意虚假消费等行为。\n\n4、在使用《海洋星球》服务过程中实施的所有行为均遵守国家法律、法规等规范性文件及《海洋星球》各项规则的规定和要求，不违背社会公共利益或公共道德，不损害他人的合法权益，不违反本协议及相关规则。您如果违反前述承诺，产生任何法律后果的，您应以自己独自承担所有的法律责任，并确保《海洋星球》免于因此产生任何损失。如《海洋星球》因此承担相应责任或者赔偿相关损失，则您承诺《海洋星球》可以向您追偿，相关责任或损失由您最终承担。\n\n5、在《海洋星球》平台消费过程中，遵守诚实信用原则，不采取不正当竞争行为，不扰乱网上交易的正常秩序，不从事与网上交易无关的行为。\n\n6、不对《海洋星球》平台上的任何数据作商业性利用，包括但不限于在未经《海洋星球》事先书面同意的情况下，以复制、传播等任何方式使用《海洋星球》上展示的资料。\n\n7、《海洋星球》严禁各种针对《海洋星球》活动的作弊行为。对于查实的作弊行为，我们有权收回该账号及其关联账号全部的邀请奖励、取消邀请资格，并列入《海洋星球》黑名单账户。作弊行为包括但不限于：使用相同的电脑或设备，相同的IP地址在同一天内注册多个账号，以骗取邀请奖励的行为。\n\n8、《海洋星球》禁止会员在《海洋星球》内进行任何形式的推广。\n\n9、您不得使用任何装置、软件或例行程序干预或试图干预《海洋星球》平台的正常运作或正在趣城上进行的任何交易、活动。您不得采取任何将导致不合理的庞大数据负载加诸《海洋星球》网络设备的行动，否则《海洋星球》将追究您的相关责任，包括但不限于取消相关邀请奖励、取消邀请资格、列入《海洋星球》黑名单账户、冻结账户或者注销账户等。如造成《海洋星球》损失或者承担相应法律责任的，《海洋星球》有权要求您赔偿并最终承担相应的责任。",
+    "_N$string": "三、《海洋星球》服务使用规范及处理规定\n在使用《海洋星球》服务过程中，您承诺遵守下列使用规范：\n\n1、会员承诺其注册信息的正确性。\n\n2、如果会员提供给《海洋星球》的资料有变更，请及时通知《海洋星球》做出相应的修改。\n\n3、会员不得出现恶意注册恶意点击恶意虚假消费等行为。\n\n4、在使用《海洋星球》服务过程中实施的所有行为均遵守国家法律、法规等规范性文件及《海洋星球》各项规则的规定和要求，不违背社会公共利益或公共道德，不损害他人的合法权益，不违反本协议及相关规则。您如果违反前述承诺，产生任何法律后果的，您应以自己独自承担所有的法律责任，并确保《海洋星球》免于因此产生任何损失。如《海洋星球》因此承担相应责任或者赔偿相关损失，则您承诺《海洋星球》可以向您追偿，相关责任或损失由您最终承担。\n\n5、在《海洋星球》平台消费过程中，遵守诚实信用原则，不采取不正当竞争行为，不扰乱网上交易的正常秩序，不从事与网上交易无关的行为。\n\n6、不对《海洋星球》平台上的任何数据作商业性利用，包括但不限于在未经《海洋星球》事先书面同意的情况下，以复制、传播等任何方式使用《海洋星球》上展示的资料。\n\n7、《海洋星球》严禁各种针对《海洋星球》活动的作弊行为。对于查实的作弊行为，我们有权收回该账号及其关联账号全部的邀请奖励、取消邀请资格，并列入《海洋星球》黑名单账户。作弊行为包括但不限于：使用相同的电脑或设备，相同的IP地址在同一天内注册多个账号，以骗取邀请奖励的行为。\n\n8、《海洋星球》禁止会员在《海洋星球》内进行任何形式的推广。\n\n9、您不得使用任何装置、软件或例行程序干预或试图干预《海洋星球》平台的正常运作或正在趣城上进行的任何交易、活动。您不得采取任何将导致不合理的庞大数据负载加诸《海洋星球》网络设备的行动，否则《海洋星球》将追究您的相关责任，包括但不限于取消相关邀请奖励、取消邀请资格、列入《海洋星球》黑名单账户、冻结账户或者注销账户等。如造成《海洋星球》损失或者承担相应法律责任的，《海洋星球》有权要求您赔偿并最终承担相应的责任。",
+    "_fontSize": 16,
+    "_lineHeight": 20,
+    "_enableWrapText": true,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
+    "_N$horizontalAlign": 0,
+    "_N$verticalAlign": 1,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 3,
+    "_N$cacheMode": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "87snNOLvFHSJWk3962R5+L",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "item14",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 32
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 43
+      }
+    ],
+    "_prefab": {
+      "__id__": 44
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 665.1999999999999
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 1
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -375.239,
+        -1755.6,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 42
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_string": "您了解并同意《海洋星球》有权作如下处理：\n\n1、《海洋星球》有权对您是否违反上述承诺做出单方认定，并根据单方认定结果适用规则予以处理，这无须征得您的同意。\n\n2、经国家行政或司法机关的生效法律文书确认您存在违法或侵权行为，或者《海洋星球》根据自身的判断，认为您的行为涉嫌违反本协议或规则的条款或涉嫌违反法律法规的规定的，则《海洋星球》有权在《海洋星球》上公示您的该等涉嫌违法或违约行为及《海洋星球》已对您采取的措施。\n\n3、对于您在《海洋星球》上发布的涉嫌违法或涉嫌侵犯他人合法权利或违反本协议或规则的信息，《海洋星球》有权予以删除，且按照规则的规定进行处罚。\n\n4、对于您在《海洋星球》上实施的行为，包括您未在《海洋星球》上实施但已经对《海洋星球》及其用户产生影响的行为，《海洋星球》有权单方认定您行为的性质及是否构成对本协议或规则的违反，并据此作出相应处罚。您应自行保存与您行为有关的全部证据，并应对无法提供充要证据而承担的不利后果。\n\n5、对于您涉嫌违反承诺的行为对任意第三方造成损害的，您均应当以自己的名义独立承担所有的法律责任，并应确保《海洋星球》免于因此产生损失或增加费用。如《海洋星球》因此承担相应责任或者赔偿相关损失，则您承诺《海洋星球》可以向您追偿，相关责任或损失由您最终承担，相关损失包括合理的律师费用、相关机构的查询费用等。\n\n6、如您涉嫌违反有关法律或者本协议之规定，使《海洋星球》遭受任何损失，或受到任何第三方的索赔，或受到任何行政管理部门的处罚，您应当赔偿《海洋星球》因此造成的损失及发生的费用，包括合理的律师费用、相关机构的查询费用等。\n\n7、《海洋星球》以上展示的资料（包括但不限于文字、图表、标识、图像、数字下载和数据编辑）均为《海洋星球》或其内容提供者的财产或者权利；《海洋星球》上所有内容的汇编是属于《海洋星球》的著作权；《海洋星球》上所有软件都是《海洋星球》或其关联公司或其软件供应商的财产或者权利，上述知识产权均受法律保护。如您侵犯上述权利，《海洋星球》有权根据规则对您进行处理并追究您的法律责任。\n\n8、《海洋星球》并无能力对您的相关注册进行实质性审查，因此一旦因您的注册的问题导致的相关后果应全部由您自己承担，《海洋星球》对此不承担责任。如果根据法律法规要求《海洋星球》先行承担了相关责任，那么您承诺《海洋星球》有权向您追偿，由您最终承担上述责任。",
+    "_N$string": "您了解并同意《海洋星球》有权作如下处理：\n\n1、《海洋星球》有权对您是否违反上述承诺做出单方认定，并根据单方认定结果适用规则予以处理，这无须征得您的同意。\n\n2、经国家行政或司法机关的生效法律文书确认您存在违法或侵权行为，或者《海洋星球》根据自身的判断，认为您的行为涉嫌违反本协议或规则的条款或涉嫌违反法律法规的规定的，则《海洋星球》有权在《海洋星球》上公示您的该等涉嫌违法或违约行为及《海洋星球》已对您采取的措施。\n\n3、对于您在《海洋星球》上发布的涉嫌违法或涉嫌侵犯他人合法权利或违反本协议或规则的信息，《海洋星球》有权予以删除，且按照规则的规定进行处罚。\n\n4、对于您在《海洋星球》上实施的行为，包括您未在《海洋星球》上实施但已经对《海洋星球》及其用户产生影响的行为，《海洋星球》有权单方认定您行为的性质及是否构成对本协议或规则的违反，并据此作出相应处罚。您应自行保存与您行为有关的全部证据，并应对无法提供充要证据而承担的不利后果。\n\n5、对于您涉嫌违反承诺的行为对任意第三方造成损害的，您均应当以自己的名义独立承担所有的法律责任，并应确保《海洋星球》免于因此产生损失或增加费用。如《海洋星球》因此承担相应责任或者赔偿相关损失，则您承诺《海洋星球》可以向您追偿，相关责任或损失由您最终承担，相关损失包括合理的律师费用、相关机构的查询费用等。\n\n6、如您涉嫌违反有关法律或者本协议之规定，使《海洋星球》遭受任何损失，或受到任何第三方的索赔，或受到任何行政管理部门的处罚，您应当赔偿《海洋星球》因此造成的损失及发生的费用，包括合理的律师费用、相关机构的查询费用等。\n\n7、《海洋星球》以上展示的资料（包括但不限于文字、图表、标识、图像、数字下载和数据编辑）均为《海洋星球》或其内容提供者的财产或者权利；《海洋星球》上所有内容的汇编是属于《海洋星球》的著作权；《海洋星球》上所有软件都是《海洋星球》或其关联公司或其软件供应商的财产或者权利，上述知识产权均受法律保护。如您侵犯上述权利，《海洋星球》有权根据规则对您进行处理并追究您的法律责任。\n\n8、《海洋星球》并无能力对您的相关注册进行实质性审查，因此一旦因您的注册的问题导致的相关后果应全部由您自己承担，《海洋星球》对此不承担责任。如果根据法律法规要求《海洋星球》先行承担了相关责任，那么您承诺《海洋星球》有权向您追偿，由您最终承担上述责任。",
+    "_fontSize": 16,
+    "_lineHeight": 20,
+    "_enableWrapText": true,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
+    "_N$horizontalAlign": 0,
+    "_N$verticalAlign": 1,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 3,
+    "_N$cacheMode": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "efgQgJX8tOg60fuo/9Ixjj",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "item15",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 32
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 46
+      }
+    ],
+    "_prefab": {
+      "__id__": 47
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 445.20000000000005
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 1
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -375.239,
+        -2420.7999999999997,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 45
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_string": "四、特别授权\n您完全理解并不可撤销地授予《海洋星球》及其关联公司下列权利：\n\n1、一旦您向《海洋星球》或其关联公司或其合作组织作出任何形式的承诺，且相关公司或组织已确认您违反了该承诺，则《海洋星球》有权立即按您的承诺或协议约定的方式对您的账户采取限制措施，包括中止或终止向您提供服务，并公示相关公司确认的您的违约情况。您了解并同意，除非法律法规另有明确要求，《海洋星球》无须就相关确认与您核对事实，或另行征得您的同意，且《海洋星球》无须就此限制措施或公示行为向您承担任何的责任。\n\n2、一旦您违反本协议，或与《海洋星球》签订的其他协议的约定，《海洋星球》有权以任何方式通知《海洋星球》关联公司或其合作组织，要求其对您的权益采取限制措施，包括但不限于要求《海洋星球》将您账户内的资产数清零，要求关联公司中止、终止对您提供部分或全部服务，且在其经营或实际控制的任何网站公示您的违约情况。\n\n3、对于您在注册或者交易中记录的资料及数据信息，您授予《海洋星球》及其关联公司或其合作组织独家的、永久的、免费的全球范围内使用并许可他人使用的权利。\n\n4、《海洋星球》及其关联公司有权受理您与其他会员因交易产生的争议，并有权单方判断与该争议相关的事实及应适用的规则，进而作出处理决定。该处理决定对您有约束力。如该争议造成《海洋星球》及其关联公司损失的，您应及时弥补《海洋星球》及其关联公司的损失，否则《海洋星球》及其关联公司有权直接抵减您在合同项下和账户中的权益，并有权继续追偿。\n",
+    "_N$string": "四、特别授权\n您完全理解并不可撤销地授予《海洋星球》及其关联公司下列权利：\n\n1、一旦您向《海洋星球》或其关联公司或其合作组织作出任何形式的承诺，且相关公司或组织已确认您违反了该承诺，则《海洋星球》有权立即按您的承诺或协议约定的方式对您的账户采取限制措施，包括中止或终止向您提供服务，并公示相关公司确认的您的违约情况。您了解并同意，除非法律法规另有明确要求，《海洋星球》无须就相关确认与您核对事实，或另行征得您的同意，且《海洋星球》无须就此限制措施或公示行为向您承担任何的责任。\n\n2、一旦您违反本协议，或与《海洋星球》签订的其他协议的约定，《海洋星球》有权以任何方式通知《海洋星球》关联公司或其合作组织，要求其对您的权益采取限制措施，包括但不限于要求《海洋星球》将您账户内的资产数清零，要求关联公司中止、终止对您提供部分或全部服务，且在其经营或实际控制的任何网站公示您的违约情况。\n\n3、对于您在注册或者交易中记录的资料及数据信息，您授予《海洋星球》及其关联公司或其合作组织独家的、永久的、免费的全球范围内使用并许可他人使用的权利。\n\n4、《海洋星球》及其关联公司有权受理您与其他会员因交易产生的争议，并有权单方判断与该争议相关的事实及应适用的规则，进而作出处理决定。该处理决定对您有约束力。如该争议造成《海洋星球》及其关联公司损失的，您应及时弥补《海洋星球》及其关联公司的损失，否则《海洋星球》及其关联公司有权直接抵减您在合同项下和账户中的权益，并有权继续追偿。\n",
+    "_fontSize": 16,
+    "_lineHeight": 20,
+    "_enableWrapText": true,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
+    "_N$horizontalAlign": 0,
+    "_N$verticalAlign": 1,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 3,
+    "_N$cacheMode": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "77Ntpg/xxFJbYf8mDU/f3m",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "item16",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 32
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 49
+      }
+    ],
+    "_prefab": {
+      "__id__": 50
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 1005.1999999999999
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 1
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -375.239,
+        -2866,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 48
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_string": "五、责任范围和责任限制\n1、《海洋星球》负责按\"现状\"和\"可得到\"的状态向您提供服务，且《海洋星球》仅对自身提供的服务承担责任。《海洋星球》对于第三方向会员提供的服务和产品不提供保证也不承担任何责任，但应当协助会员和第三方进行交涉谈判以维护会员合法权益。\n\n2、您了解《海洋星球》上的大量信息系第三方平台自行发布，且可能存在风险和瑕疵。《海洋星球》仅作为交易平台。《海洋星球》仅作为您获取物品或服务信息、物色交易对象、就物品或服务的交易进行协商及开展交易的场所，但《海洋星球》无法控制交易所涉及的物品的质量、安全或合法性，商贸信息的真实性或准确性，以及交易各方履行其在贸易协议中各项义务的能力。您应自行谨慎判断确定相关物品及信息的真实性、合法性和有效性，并自行承担相关风险。\n\n3、《海洋星球》上的商品价格、数量、是否有货等商品信息随时有可能发生变动，《海洋星球》不就此作出特别通知。您知悉并理解由于网站上商品信息数量极其庞大，虽然《海洋星球》会尽合理的最大努力保证您所浏览的商品信息的准确性、迅捷性，但由于众所周知的互联网技术因素等客观原因，《海洋星球》显示的信息可能存在一定的滞后性和差错，由此给您带来的不便或产生相应问题，《海洋星球》不承担责任。\n\n4、除非法律法规明确要求，或出现以下情况，否则，《海洋星球》没有义务对所有用户的注册数据、商品（服务）信息、交易行为以及与交易有关的其它事项进行事先审查：\n\na)《海洋星球》有合理的理由认为特定会员及具体交易事项可能存在重大违法或违约情形。\n\nb)《海洋星球》有合理的理由认为用户在《海洋星球》的行为涉嫌违法或不当。\n\n5、您理解并同意，《海洋星球》及其关联公司并非司法机构，仅能以普通人的身份对证据进行鉴别，《海洋星球》及其关联公司对争议的调处完全是基于您的委托，《海洋星球》及其关联公司无法保证争议处理结果符合您的期望，也不对争议调处结论承担任何责任。如您因此遭受损失，您同意自行通过法律途径向受益人或者其他相关人员索偿。\n\n6、您了解并同意，《海洋星球》不对因下述任一情况而导致您的任何损害赔偿承担责任，包括但不限于利润、商誉、使用、数据等方面的损失或其它无形损失的损害赔偿 (无论《海洋星球》是否已被告知该等损害赔偿的可能性)：\n\na)第三方未经批准的使用您的账户或更改您的数据。\n\nb)通过《海洋星球》服务购买或获取任何商品、样品、数据、信息或进行交易等行为或替代行为产生的费用及损失，但因《海洋星球》提供的服务信息错误所导致的除外。\n\nc)您对《海洋星球》服务的误解。\n\nd)任何非因《海洋星球》的原因而引起的与《海洋星球》服务有关的其它损失。\n\n7、因使用《海洋星球》服务而引起的任何损害或经济损失，《海洋星球》承担的全部责任均不超过您通过《海洋星球》所购买的或与该索赔有关的服务或商品的价格。本责任限制条款在会员资格被冻结、暂停或注销后仍继续有效。\n\n8、不论在何种情况下，《海洋星球》均不对由于罢工、暴乱、起义、骚乱、火灾、洪水、风暴、爆炸、战争、政府行为、司法行政机关的命令，以及其它非因《海洋星球》的原因而造成的不能服务或延迟服务承担责任。《海洋星球》会尽合理努力处理善后事宜。\n",
+    "_N$string": "五、责任范围和责任限制\n1、《海洋星球》负责按\"现状\"和\"可得到\"的状态向您提供服务，且《海洋星球》仅对自身提供的服务承担责任。《海洋星球》对于第三方向会员提供的服务和产品不提供保证也不承担任何责任，但应当协助会员和第三方进行交涉谈判以维护会员合法权益。\n\n2、您了解《海洋星球》上的大量信息系第三方平台自行发布，且可能存在风险和瑕疵。《海洋星球》仅作为交易平台。《海洋星球》仅作为您获取物品或服务信息、物色交易对象、就物品或服务的交易进行协商及开展交易的场所，但《海洋星球》无法控制交易所涉及的物品的质量、安全或合法性，商贸信息的真实性或准确性，以及交易各方履行其在贸易协议中各项义务的能力。您应自行谨慎判断确定相关物品及信息的真实性、合法性和有效性，并自行承担相关风险。\n\n3、《海洋星球》上的商品价格、数量、是否有货等商品信息随时有可能发生变动，《海洋星球》不就此作出特别通知。您知悉并理解由于网站上商品信息数量极其庞大，虽然《海洋星球》会尽合理的最大努力保证您所浏览的商品信息的准确性、迅捷性，但由于众所周知的互联网技术因素等客观原因，《海洋星球》显示的信息可能存在一定的滞后性和差错，由此给您带来的不便或产生相应问题，《海洋星球》不承担责任。\n\n4、除非法律法规明确要求，或出现以下情况，否则，《海洋星球》没有义务对所有用户的注册数据、商品（服务）信息、交易行为以及与交易有关的其它事项进行事先审查：\n\na)《海洋星球》有合理的理由认为特定会员及具体交易事项可能存在重大违法或违约情形。\n\nb)《海洋星球》有合理的理由认为用户在《海洋星球》的行为涉嫌违法或不当。\n\n5、您理解并同意，《海洋星球》及其关联公司并非司法机构，仅能以普通人的身份对证据进行鉴别，《海洋星球》及其关联公司对争议的调处完全是基于您的委托，《海洋星球》及其关联公司无法保证争议处理结果符合您的期望，也不对争议调处结论承担任何责任。如您因此遭受损失，您同意自行通过法律途径向受益人或者其他相关人员索偿。\n\n6、您了解并同意，《海洋星球》不对因下述任一情况而导致您的任何损害赔偿承担责任，包括但不限于利润、商誉、使用、数据等方面的损失或其它无形损失的损害赔偿 (无论《海洋星球》是否已被告知该等损害赔偿的可能性)：\n\na)第三方未经批准的使用您的账户或更改您的数据。\n\nb)通过《海洋星球》服务购买或获取任何商品、样品、数据、信息或进行交易等行为或替代行为产生的费用及损失，但因《海洋星球》提供的服务信息错误所导致的除外。\n\nc)您对《海洋星球》服务的误解。\n\nd)任何非因《海洋星球》的原因而引起的与《海洋星球》服务有关的其它损失。\n\n7、因使用《海洋星球》服务而引起的任何损害或经济损失，《海洋星球》承担的全部责任均不超过您通过《海洋星球》所购买的或与该索赔有关的服务或商品的价格。本责任限制条款在会员资格被冻结、暂停或注销后仍继续有效。\n\n8、不论在何种情况下，《海洋星球》均不对由于罢工、暴乱、起义、骚乱、火灾、洪水、风暴、爆炸、战争、政府行为、司法行政机关的命令，以及其它非因《海洋星球》的原因而造成的不能服务或延迟服务承担责任。《海洋星球》会尽合理努力处理善后事宜。\n",
+    "_fontSize": 16,
+    "_lineHeight": 20,
+    "_enableWrapText": true,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
+    "_N$horizontalAlign": 0,
+    "_N$verticalAlign": 1,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 3,
+    "_N$cacheMode": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "e3DaN3YoZKZ63GwTanKQrJ",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "item17",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 32
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 52
+      }
+    ],
+    "_prefab": {
+      "__id__": 53
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 785.1999999999999
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 1
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -375.239,
+        -3871.2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 51
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_string": "六、协议终止\n1、您同意，《海洋星球》有权依据本协议决定中止、终止向您提供部分或全部《海洋星球》平台服务，暂时冻结或永久冻结（注销）您的账户，且无须为此向您或任何第三方承担任何责任，但本协议或法律法规另有明确要求的除外。\n\n2、出现以下情况时，《海洋星球》有权直接以注销账户的方式终止本协议：\n\na)《海洋星球》终止向您提供服务后，您涉嫌再一次直接或间接或以他人名义注册为《海洋星球》用户的；\n\nb)本协议（含规则）变更时，您明示并通知《海洋星球》不愿接受新的服务协议的；\n\nc)其它《海洋星球》认为应当终止服务的情况。\n\n3、您有权向《海洋星球》要求注销您的账户，经《海洋星球》审核同意的，《海洋星球》注销（永久冻结）您的账户，届时，您与《海洋星球》基于本协议的合同关系即终止。您的账户被注销（永久冻结）后，《海洋星球》没有义务为您保留或向您披露您账户中的任何信息，也没有义务向您或第三方转发任何您未曾阅读或发送过的信息。\n\n4、您同意，您与《海洋星球》的合同关系终止后，《海洋星球》及其关联公司或者其合作组织仍享有下列权利：\n\na)继续保存并使用您的注册、数据及您使用《海洋星球》服务期间的所有交易数据。\n\nb)您在使用《海洋星球》服务期间存在违法行为或违反本协议或规则的行为的，《海洋星球》仍可依据本协议向您主张权利。\n\n5、《海洋星球》中止或终止向您提供服务后，对于您在服务中止或终止之前的交易行为依下列原则处理，您应独力处理并完全承担进行以下处理所产生的任何争议、损失或增加的任何费用，并应确保《海洋星球》免于因此产生任何损失或承担任何费用：\n\na)您在服务中止或终止之前已经上传至《海洋星球》的未完成的交易或活动信息，《海洋星球》有权在中止或终止服务的同时删除此项内容的相关信息；\n\nb)您在服务中止或终止之前已经与其他会员达成买卖合同，但合同尚未实际履行的，《海洋星球》有权删除该买卖合同及其交易物品在《海洋星球》平台上的相关信息；\n\nc)您在服务中止或终止之前已经与其他会员达成买卖合同且已部分履行的，《海洋星球》可以不删除该项交易，但《海洋星球》有权在中止或终止服务的同时将相关情形通知您的交易对方。",
+    "_N$string": "六、协议终止\n1、您同意，《海洋星球》有权依据本协议决定中止、终止向您提供部分或全部《海洋星球》平台服务，暂时冻结或永久冻结（注销）您的账户，且无须为此向您或任何第三方承担任何责任，但本协议或法律法规另有明确要求的除外。\n\n2、出现以下情况时，《海洋星球》有权直接以注销账户的方式终止本协议：\n\na)《海洋星球》终止向您提供服务后，您涉嫌再一次直接或间接或以他人名义注册为《海洋星球》用户的；\n\nb)本协议（含规则）变更时，您明示并通知《海洋星球》不愿接受新的服务协议的；\n\nc)其它《海洋星球》认为应当终止服务的情况。\n\n3、您有权向《海洋星球》要求注销您的账户，经《海洋星球》审核同意的，《海洋星球》注销（永久冻结）您的账户，届时，您与《海洋星球》基于本协议的合同关系即终止。您的账户被注销（永久冻结）后，《海洋星球》没有义务为您保留或向您披露您账户中的任何信息，也没有义务向您或第三方转发任何您未曾阅读或发送过的信息。\n\n4、您同意，您与《海洋星球》的合同关系终止后，《海洋星球》及其关联公司或者其合作组织仍享有下列权利：\n\na)继续保存并使用您的注册、数据及您使用《海洋星球》服务期间的所有交易数据。\n\nb)您在使用《海洋星球》服务期间存在违法行为或违反本协议或规则的行为的，《海洋星球》仍可依据本协议向您主张权利。\n\n5、《海洋星球》中止或终止向您提供服务后，对于您在服务中止或终止之前的交易行为依下列原则处理，您应独力处理并完全承担进行以下处理所产生的任何争议、损失或增加的任何费用，并应确保《海洋星球》免于因此产生任何损失或承担任何费用：\n\na)您在服务中止或终止之前已经上传至《海洋星球》的未完成的交易或活动信息，《海洋星球》有权在中止或终止服务的同时删除此项内容的相关信息；\n\nb)您在服务中止或终止之前已经与其他会员达成买卖合同，但合同尚未实际履行的，《海洋星球》有权删除该买卖合同及其交易物品在《海洋星球》平台上的相关信息；\n\nc)您在服务中止或终止之前已经与其他会员达成买卖合同且已部分履行的，《海洋星球》可以不删除该项交易，但《海洋星球》有权在中止或终止服务的同时将相关情形通知您的交易对方。",
+    "_fontSize": 16,
+    "_lineHeight": 20,
+    "_enableWrapText": true,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
+    "_N$horizontalAlign": 0,
+    "_N$verticalAlign": 1,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 3,
+    "_N$cacheMode": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "7bhjlIJs9HU4e8vZVGbp2m",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "item18",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 32
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 55
+      }
+    ],
+    "_prefab": {
+      "__id__": 56
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 385.20000000000005
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 1
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -375.239,
+        -4656.4,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 54
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_string": "七、隐私权政策\n1、《海洋星球》对希望成为会员的用户没有任何限制，但18岁以下的用户使用《海洋星球》服务必须取得监护人的同意；\n\n2、一个帐号仅限一个会员使用，会员必须向《海洋星球》提供真实确实的信息，由于资料提供不正确导致提现无法收到等后果，《海洋星球》不承担责任；\n\n3、会员资料修改后必须及时通知《海洋星球》做出相应变更；\n\n4、《海洋星球》及其关联公司承诺不向其它第三方机构透露会员涉及隐私的信息；\n\n5、会员必须遵守《海洋星球》（及合作组织）的使用条款及隐私政策。\n\n八、法律适用、管辖与其他\n1、本协议之效力、解释、变更、执行与争议解决均适用中华人民共和国法律，如无相关法律规定的，则应参照通用国际商业惯例和行业惯例。\n\n2、因本协议产生之争议，应依照中华人民共和国法律予以处理。双方对于争议协商不成的，应当提交北京黑蚂蚁字节科技有限公司所在地人民法院诉讼解决。",
+    "_N$string": "七、隐私权政策\n1、《海洋星球》对希望成为会员的用户没有任何限制，但18岁以下的用户使用《海洋星球》服务必须取得监护人的同意；\n\n2、一个帐号仅限一个会员使用，会员必须向《海洋星球》提供真实确实的信息，由于资料提供不正确导致提现无法收到等后果，《海洋星球》不承担责任；\n\n3、会员资料修改后必须及时通知《海洋星球》做出相应变更；\n\n4、《海洋星球》及其关联公司承诺不向其它第三方机构透露会员涉及隐私的信息；\n\n5、会员必须遵守《海洋星球》（及合作组织）的使用条款及隐私政策。\n\n八、法律适用、管辖与其他\n1、本协议之效力、解释、变更、执行与争议解决均适用中华人民共和国法律，如无相关法律规定的，则应参照通用国际商业惯例和行业惯例。\n\n2、因本协议产生之争议，应依照中华人民共和国法律予以处理。双方对于争议协商不成的，应当提交北京黑蚂蚁字节科技有限公司所在地人民法院诉讼解决。",
+    "_fontSize": 16,
+    "_lineHeight": 20,
+    "_enableWrapText": true,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
+    "_N$horizontalAlign": 0,
+    "_N$verticalAlign": 1,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 3,
+    "_N$cacheMode": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "cfbQDz4iFBfpMyRVlpqixz",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Layout",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 32
+    },
+    "_enabled": true,
+    "_layoutSize": {
+      "__type__": "cc.Size",
+      "width": 300,
+      "height": 200
+    },
+    "_resize": 1,
+    "_N$layoutType": 2,
+    "_N$cellSize": {
+      "__type__": "cc.Size",
+      "width": 40,
+      "height": 40
+    },
+    "_N$startAxis": 0,
+    "_N$paddingLeft": 0,
+    "_N$paddingRight": 0,
+    "_N$paddingTop": 0,
+    "_N$paddingBottom": 0,
+    "_N$spacingX": 0,
+    "_N$spacingY": 0,
+    "_N$verticalDirection": 1,
+    "_N$horizontalDirection": 0,
+    "_N$affectedByScale": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "be5Z0LOVRCMYWhhoWxZ7dP",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Mask",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 31
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_spriteFrame": null,
+    "_type": 0,
+    "_segments": 64,
+    "_N$alphaThreshold": 0,
+    "_N$inverted": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 31
+    },
+    "_enabled": true,
+    "alignMode": 1,
+    "_target": null,
+    "_alignFlags": 45,
+    "_left": 0,
+    "_right": 0,
+    "_top": 0,
+    "_bottom": 0,
+    "_verticalCenter": 0,
+    "_horizontalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 750,
+    "_originalHeight": 1450,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "8cxYIDTCZMi4GjNMvDosV4",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 30
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": null,
+    "_type": 1,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.ScrollView",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 30
+    },
+    "_enabled": true,
+    "horizontal": false,
+    "vertical": true,
+    "inertia": true,
+    "brake": 0.75,
+    "elastic": true,
+    "bounceDuration": 0.23,
+    "scrollEvents": [],
+    "cancelInnerEvents": true,
+    "_N$content": {
+      "__id__": 32
+    },
+    "content": {
+      "__id__": 32
+    },
+    "_N$horizontalScrollBar": null,
+    "_N$verticalScrollBar": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 30
+    },
+    "_enabled": true,
+    "alignMode": 1,
+    "_target": null,
+    "_alignFlags": 45,
+    "_left": 0,
+    "_right": 0,
+    "_top": 171.332,
+    "_bottom": 2.6680000000000064,
+    "_verticalCenter": 0,
+    "_horizontalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 750,
+    "_originalHeight": 1450,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "17sKJFBARP45oyRLTXK5sB",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Scrollgy",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [
+      {
+        "__id__": 67
+      }
+    ],
+    "_active": false,
+    "_components": [
+      {
+        "__id__": 77
+      },
+      {
+        "__id__": 78
+      },
+      {
+        "__id__": 79
+      }
+    ],
+    "_prefab": {
+      "__id__": 80
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 1450
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        -84.332,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "viewgy",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 66
+    },
+    "_children": [
+      {
+        "__id__": 68
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 74
+      },
+      {
+        "__id__": 75
+      }
+    ],
+    "_prefab": {
+      "__id__": 76
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 1450
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "contentgy",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 67
+    },
+    "_children": [
+      {
+        "__id__": 69
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 72
+      }
+    ],
+    "_prefab": {
+      "__id__": 73
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 25.2
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 1
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        724.954,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "item6",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 68
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 70
+      }
+    ],
+    "_prefab": {
+      "__id__": 71
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 25.2
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 1
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -375.239,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 69
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_string": "",
+    "_N$string": "",
+    "_fontSize": 16,
+    "_lineHeight": 20,
+    "_enableWrapText": true,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
+    "_N$horizontalAlign": 0,
+    "_N$verticalAlign": 1,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 3,
+    "_N$cacheMode": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "dfJMdrPQRGwpD78Z5hdmsX",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Layout",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 68
+    },
+    "_enabled": true,
+    "_layoutSize": {
+      "__type__": "cc.Size",
+      "width": 750,
+      "height": 25.2
+    },
+    "_resize": 1,
+    "_N$layoutType": 2,
+    "_N$cellSize": {
+      "__type__": "cc.Size",
+      "width": 40,
+      "height": 40
+    },
+    "_N$startAxis": 0,
+    "_N$paddingLeft": 0,
+    "_N$paddingRight": 0,
+    "_N$paddingTop": 0,
+    "_N$paddingBottom": 0,
+    "_N$spacingX": 0,
+    "_N$spacingY": 0,
+    "_N$verticalDirection": 1,
+    "_N$horizontalDirection": 0,
+    "_N$affectedByScale": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "04MqmIDjJLl4zac0Prhd0V",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Mask",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 67
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_spriteFrame": null,
+    "_type": 0,
+    "_segments": 64,
+    "_N$alphaThreshold": 0,
+    "_N$inverted": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 67
+    },
+    "_enabled": true,
+    "alignMode": 1,
+    "_target": null,
+    "_alignFlags": 45,
+    "_left": 0,
+    "_right": 0,
+    "_top": 0,
+    "_bottom": 0,
+    "_verticalCenter": 0,
+    "_horizontalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 750,
+    "_originalHeight": 1450,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "7e1PZGYj5Hm4LJtFpFZ5ot",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 66
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": null,
+    "_type": 1,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.ScrollView",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 66
+    },
+    "_enabled": true,
+    "horizontal": false,
+    "vertical": true,
+    "inertia": true,
+    "brake": 0.75,
+    "elastic": true,
+    "bounceDuration": 0.23,
+    "scrollEvents": [],
+    "cancelInnerEvents": true,
+    "_N$content": {
+      "__id__": 68
+    },
+    "content": {
+      "__id__": 68
+    },
+    "_N$horizontalScrollBar": null,
+    "_N$verticalScrollBar": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 66
+    },
+    "_enabled": true,
+    "alignMode": 1,
+    "_target": null,
+    "_alignFlags": 45,
+    "_left": 0,
+    "_right": 0,
+    "_top": 171.332,
+    "_bottom": 2.6680000000000064,
+    "_verticalCenter": 0,
+    "_horizontalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 750,
+    "_originalHeight": 1450,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "46IH+fUqNNq7WLI4dF1EKW",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "alignMode": 1,
+    "_target": null,
+    "_alignFlags": 45,
+    "_left": 0,
+    "_right": 0,
+    "_top": 0,
+    "_bottom": 0,
+    "_verticalCenter": 0,
+    "_horizontalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 0,
+    "_originalHeight": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "8c7e0hH5gVMlaRVGGcRxdjR",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "687242fd-dbfb-4e54-8f72-30a309f1eb4a"
+    },
+    "fileId": "",
+    "sync": false
+  }
+]

@@ -1,0 +1,62 @@
+
+caomei.png
+size: 240,78
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 4
+  size: 100, 72
+  orig: 100, 85
+  offset: 0, 13
+  index: -1
+baihua
+  rotate: true
+  xy: 195, 4
+  size: 35, 41
+  orig: 35, 42
+  offset: 0, 1
+  index: -1
+caomei1
+  rotate: true
+  xy: 153, 27
+  size: 49, 40
+  orig: 49, 40
+  offset: 0, 0
+  index: -1
+caomei2
+  rotate: false
+  xy: 104, 25
+  size: 47, 51
+  orig: 49, 54
+  offset: 2, 0
+  index: -1
+hua1
+  rotate: false
+  xy: 132, 3
+  size: 18, 20
+  orig: 19, 20
+  offset: 1, 0
+  index: -1
+hua2
+  rotate: true
+  xy: 152, 7
+  size: 16, 13
+  orig: 17, 13
+  offset: 1, 0
+  index: -1
+hua3
+  rotate: false
+  xy: 195, 41
+  size: 43, 35
+  orig: 45, 35
+  offset: 1, 0
+  index: -1
+hua4
+  rotate: false
+  xy: 104, 2
+  size: 26, 21
+  orig: 26, 28
+  offset: 0, 7
+  index: -1
