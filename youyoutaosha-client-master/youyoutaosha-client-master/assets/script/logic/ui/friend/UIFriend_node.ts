@@ -29,19 +29,19 @@ export default class UIFriend_node extends UIBase {
 		this.initEvent(GameEvent.FRIEND_LIST, this.onFriendData);
 		this.initEvent(GameEvent.FRIEND_RED_LIST, this.onFriendRewardData);
 
-		this.onRegisterEvent(this.ui.btn_Reward_Benefits_tixian, this.onTixian);
-		this.onRegisterEvent(this.ui.btn_Reward_Benefits, this.onShowInvite);
-		this.onRegisterEvent(this.ui.doudou_node, this.onShowFriendYesPrize);
-		this.onRegisterEvent(this.ui.redpack_node, this.onShowFriendInviterecord);
-		this.onRegisterEvent(this.ui.material_node, this.onShowFriendYesPrize);
-		this.onRegisterEvent(this.ui.btn_invent_friend, this.onShowShare);
+		// this.onRegisterEvent(this.ui.btn_Reward_Benefits_tixian, this.onTixian);
+		// this.onRegisterEvent(this.ui.btn_Reward_Benefits, this.onShowInvite);
+		// this.onRegisterEvent(this.ui.doudou_node, this.onShowFriendYesPrize);
+		// this.onRegisterEvent(this.ui.redpack_node, this.onShowFriendInviterecord);
+		// this.onRegisterEvent(this.ui.material_node, this.onShowFriendYesPrize);
+		// this.onRegisterEvent(this.ui.btn_invent_friend, this.onShowShare);
 	}
 
 	onHide() {
 
 	}
 	initUI() {
-		UIHelp.SetLabel(this.ui.Reward_Benefits_my_num, GameDataCenter.player.cash + "个")
+		// UIHelp.SetLabel(this.ui.Reward_Benefits_my_num, GameDataCenter.player.cash + "个")
 	}
 	onStart() {
 
@@ -53,44 +53,55 @@ export default class UIFriend_node extends UIBase {
 	}
 	//好有数据
 	onFriendData(data) {
-		
-		UIHelp.SetLabel(this.ui.lab_myfriend_num, data.zhitui.length + "人")
-		const virtualList = this.ui.friestScrollView.getComponent(VirtualList);
+		console.log(data,'444444444444444444')
 		// UIHelp.SetLabel(this.ui.lab_myfriend_num, data.zhitui.length + "人")
-		console.log('直推',data);
-		virtualList.clearAll();
+		// const virtualList = this.ui.user_scrollView.getComponent(VirtualList);
+		UIHelp.SetLabel(this.ui.zhitui_num, data.tu)
+		UIHelp.SetLabel(this.ui.tuandui_num, data.mu)
+		UIHelp.SetLabel(this.ui.benyue_num, data.shui)
+		UIHelp.SetLabel(this.ui.shangyue_num, data.jin)
+
+		UIHelp.SetLabel(this.ui.tu_num, data.tu)
+		UIHelp.SetLabel(this.ui.shui_num, data.shui)
+		UIHelp.SetLabel(this.ui.jin_num, data.jin)
+		UIHelp.SetLabel(this.ui.mu_num, data.mu)
+		UIHelp.SetLabel(this.ui.huo_num, data.huo)
 
 
-		if (data.zhitui.length < 5) {
+		console.log('直推',this.ui.user_scrollView);
+		// virtualList.clearAll();
 
-			let index = 0
-			for (let i = 0; i < data.zhitui.length; i++) {
-				virtualList.push(data.zhitui[i]);
-				index++;
-			}
-			for (let i = 0; i < 5 - index; i++) {
-				virtualList.push(1)
-			}
 
-		}
-		else {
-			for (let index of data.zhitui) {
-				virtualList.push(index);
-			}
-		}
-		setTimeout(() => {
-			this.ui.friestScrollView.getComponent(cc.ScrollView).scrollToLeft()
-		}, 50);
+		// if (data.zhitui.length < 5) {
+
+		// 	let index = 0
+		// 	for (let i = 0; i < data.zhitui.length; i++) {
+		// 		virtualList.push(data.zhitui[i]);
+		// 		index++;
+		// 	}
+		// 	for (let i = 0; i < 5 - index; i++) {
+		// 		virtualList.push(1)
+		// 	}
+
+		// }
+		// else {
+		// 	for (let index of data.zhitui) {
+		// 		virtualList.push(index);
+		// 	}
+		// }
+		// setTimeout(() => {
+		// 	this.ui.friestScrollView.getComponent(cc.ScrollView).scrollToTop()
+		// }, 0);
 
 	}
 	//好友奖励数据
 	onFriendRewardData(data) {
-		UIHelp.SetLabel(this.ui.hongbao_num, `${data.totalreward}元/5000元`);
-		UIHelp.SetLabel(this.ui.Reward_Benefits_lab_num, `${data.totalreward}元/5000元`);
-		UIHelp.SetLabel(this.ui.Reward_Benefits_lab_all, `${data.totalreward}元`);
+		// UIHelp.SetLabel(this.ui.hongbao_num, `${data.totalreward}元/5000元`);
+		// UIHelp.SetLabel(this.ui.Reward_Benefits_lab_num, `${data.totalreward}元/5000元`);
+		// UIHelp.SetLabel(this.ui.Reward_Benefits_lab_all, `${data.totalreward}元`);
 
-		UIHelp.SetLabel(this.ui.doudou_num, `${Utils.convertShow(data.totaldou)}`);
-		UIHelp.SetLabel(this.ui.material_num, `${Utils.convertShow(data.totalfriendfragment)}`);
+		// UIHelp.SetLabel(this.ui.doudou_num, `${Utils.convertShow(data.totaldou)}`);
+		// UIHelp.SetLabel(this.ui.material_num, `${Utils.convertShow(data.totalfriendfragment)}`);
 	}
 
 	onShowInvite() {

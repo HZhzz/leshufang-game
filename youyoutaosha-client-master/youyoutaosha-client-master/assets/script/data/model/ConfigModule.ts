@@ -1,8 +1,8 @@
 export class ConfigModule {
     public static WS_URL = "xxxxx"                //正式服地址
-    public static HTTP_URL = "http://api.leshufang.cn:9080/api";           //正式服地址
+    // public static HTTP_URL = "http://api.leshufang.cn:9080/api";           //正式服地址
     // public static HTTP_URL = "http://192.168.3.158:20000/api";           //正式服地址
-    // public static HTTP_URL = "http://47.107.72.73:9080/api";           //测试服
+    public static HTTP_URL = "http://47.107.72.73:9080/api";           //测试服
 
     public static WS_URL_LOCAL = "xxxx"           //内网地址
     public static HTTP_URL_LOCAL = "";      //内网地址
