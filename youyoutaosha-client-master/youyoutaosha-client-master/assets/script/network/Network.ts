@@ -88,6 +88,7 @@ export class Network {
         let randStr: string = this.randomNum(10000, 99999) + '&' + this.randomNum(10000, 99999);
         randStr = md5(randStr);
         let key: string = "@&hsSAaaxsUDH2d812heusdaaqwwshd)I()@hd8wD";
+        console.log(GameDataCenter.account.deviceid)
         params['deviceid'] = GameDataCenter.account.deviceid;
         params['noncestr'] = randStr;
         let timestamp: number = Math.ceil(new Date().getTime() / 1000);

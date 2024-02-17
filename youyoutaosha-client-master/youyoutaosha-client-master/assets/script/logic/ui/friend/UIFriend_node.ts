@@ -49,48 +49,27 @@ export default class UIFriend_node extends UIBase {
 		//好友列表
 		GameDataCenter.player.onGetFriendList();
 		GameDataCenter.player.onSetFriendGift();
-		this.initUI()
+		// this.initUI()
 	}
 	//好有数据
 	onFriendData(data) {
-		console.log(data,'444444444444444444')
-		// UIHelp.SetLabel(this.ui.lab_myfriend_num, data.zhitui.length + "人")
-		// const virtualList = this.ui.user_scrollView.getComponent(VirtualList);
-		UIHelp.SetLabel(this.ui.zhitui_num, data.tu)
-		UIHelp.SetLabel(this.ui.tuandui_num, data.mu)
-		UIHelp.SetLabel(this.ui.benyue_num, data.shui)
-		UIHelp.SetLabel(this.ui.shangyue_num, data.jin)
+		// UIHelp.SetLabel(this.ui.zhitui_num, data.tu)
+		// UIHelp.SetLabel(this.ui.tuandui_num, data.mu)
 
-		UIHelp.SetLabel(this.ui.tu_num, data.tu)
-		UIHelp.SetLabel(this.ui.shui_num, data.shui)
-		UIHelp.SetLabel(this.ui.jin_num, data.jin)
-		UIHelp.SetLabel(this.ui.mu_num, data.mu)
-		UIHelp.SetLabel(this.ui.huo_num, data.huo)
+		// UIHelp.SetLabel(this.ui.tu_num, data.tu)
+		// UIHelp.SetLabel(this.ui.shui_num, data.shui)
+		// UIHelp.SetLabel(this.ui.jin_num, data.jin)
+		// UIHelp.SetLabel(this.ui.mu_num, data.mu)
+		// UIHelp.SetLabel(this.ui.huo_num, data.huo)
+		console.log(this.ui.ScrollView,'ScrollViewScrollViewScrollViewScrollView')
+		const virtualList = this.ui.ScrollView.getComponent(VirtualList);
+		virtualList.clearAll();
+		for (let index of data.zhitui) {
+			virtualList.push(index);
+		}
 
-
-		console.log('直推',this.ui.user_scrollView);
-		// virtualList.clearAll();
-
-
-		// if (data.zhitui.length < 5) {
-
-		// 	let index = 0
-		// 	for (let i = 0; i < data.zhitui.length; i++) {
-		// 		virtualList.push(data.zhitui[i]);
-		// 		index++;
-		// 	}
-		// 	for (let i = 0; i < 5 - index; i++) {
-		// 		virtualList.push(1)
-		// 	}
-
-		// }
-		// else {
-		// 	for (let index of data.zhitui) {
-		// 		virtualList.push(index);
-		// 	}
-		// }
 		// setTimeout(() => {
-		// 	this.ui.friestScrollView.getComponent(cc.ScrollView).scrollToTop()
+		// 	this.ui.ScrollView.getComponent(cc.ScrollView).scrollToTop()
 		// }, 0);
 
 	}

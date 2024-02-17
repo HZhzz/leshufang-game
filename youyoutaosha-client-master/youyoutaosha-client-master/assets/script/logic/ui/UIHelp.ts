@@ -186,6 +186,7 @@ export default class UIHelp {
 
     public static ShowUI<T extends UIBase>(uiClass: UIClass<T>, callback?: Function, ...args: any[]) {
         console.table({ name: uiClass.name });
+        console.log(uiClass)
         UIMng.getInstance().openUI(uiClass, ViewZorder.UI, callback, null, ...args);
     }
     // public static ShowAddUI(addNode:cc.Node) {

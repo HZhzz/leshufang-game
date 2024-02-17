@@ -34,9 +34,9 @@ export default class auto_friend_node extends cc.Component {
 	btn_invent_friend: cc.Node;
 	btn_invent_friend_lab: cc.Node;
 	btn_invent_friend_icon: cc.Node;
-	friestScrollView: cc.Node;
-	view: cc.Node;
-	content: cc.Node;
+	// friestScrollView: cc.Node;
+	// view: cc.Node;
+	// content: cc.Node;
 	// top3: cc.Node;
 	// Reward_Benefits: cc.Node;
 	// Reward_Benefits_node: cc.Node;
@@ -91,8 +91,8 @@ export default class auto_friend_node extends cc.Component {
 	huo_num:cc.Node;
 	img_huo:cc.Node;
 	top_title:cc.Node;
-	user_scrollView:cc.Node;
-	user_view:cc.Node;
+	ScrollView:cc.Node;
+	view:cc.Node;
 	conten:cc.Node;
 
 	public static URL:string = "db://assets/resources/prefab/friend/friend_node.prefab"
@@ -130,9 +130,9 @@ export default class auto_friend_node extends cc.Component {
 		this.btn_invent_friend = this.top2.getChildByName("btn_invent_friend");
 		this.btn_invent_friend_lab = this.btn_invent_friend.getChildByName("btn_invent_friend_lab");
 		this.btn_invent_friend_icon = this.btn_invent_friend.getChildByName("btn_invent_friend_icon");
-		this.friestScrollView = this.top2.getChildByName("friestScrollView");
-		this.view = this.friestScrollView.getChildByName("view");
-		this.content = this.view.getChildByName("content");
+		// this.ScrollView = this.top2.getChildByName("ScrollView");
+		// this.view = this.ScrollView.getChildByName("view");
+		// this.content = this.view.getChildByName("content");
 		// this.top3 = this.friend_node.getChildByName("top3");
 		// this.Reward_Benefits = this.top3.getChildByName("Reward_Benefits");
 		// this.Reward_Benefits_node = this.Reward_Benefits.getChildByName("Reward_Benefits_node");
@@ -192,8 +192,8 @@ export default class auto_friend_node extends cc.Component {
 		this.img_huo = this.huo.getChildByName("img_huo");
 
 		// 列表
-		this.user_scrollView = this.top4.getChildByName("user_scrollView");
-		this.user_view = this.user_scrollView.getChildByName("user_view");
-		this.conten = this.user_view.getChildByName("conten")
+		this.ScrollView = this.top4.getChildByName("ScrollView");
+		this.view = this.ScrollView.getChildByName("view");
+		this.conten = this.view.getChildByName("conten")
     }
 }

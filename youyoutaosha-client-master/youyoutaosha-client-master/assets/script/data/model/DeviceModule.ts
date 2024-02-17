@@ -183,7 +183,7 @@ export class DeviceModule {
 
     //获取粘贴板文字，安卓只能异步回调 否则某些机型会闪退
     getClipContent(callback) {
-        console.log("getClipContent",JSON.stringify(callback))
+        console.log("getClipContent",JSON.stringify(callback),jsb)
         DeviceModule._clipCallback = callback;
         if (cc.sys.os === cc.sys.OS_ANDROID) {
             jsb.reflection.callStaticMethod(

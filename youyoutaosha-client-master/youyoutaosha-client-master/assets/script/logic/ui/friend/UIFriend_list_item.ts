@@ -12,7 +12,7 @@ export default class UIFriend_list_item extends VirtualItem {
 	ui: auto_friend_list_item = null;
 
 	protected static prefabUrl = "friend/friend_list_item";
-	protected static className = "UIFriend_list_item";
+	protected static className = "UIfriend_list_item";
 	vo: any;
 
 	@property(cc.SpriteFrame)
@@ -35,7 +35,7 @@ export default class UIFriend_list_item extends VirtualItem {
 	}
 	//记载item数据
 	onInitItem(vo) {
-		console.log(vo.lv);
+		console.log(this.ui)
 		
 		UIHelp.SetLabel(this.ui.lab_name, Utils.cutString(vo.nickname, 24));
 		UIHelp.SetLabel(this.ui.lab_time, '2023/' + vo.createtime);
@@ -47,7 +47,18 @@ export default class UIFriend_list_item extends VirtualItem {
 			this.ui.sp_face.getComponent(cc.Sprite).spriteFrame = this.faceP
 			//UIHelp.SetSpriteFrame(this.ui.sp_face, this.faceP)
 		}
-		
+		// if (vo.lv == "联创") {
+		// 	this.ui.img_super.active = true
+		// 	 this.ui.img_vip.active = false
+		// }
+		// else if (vo.lv == "会员") {
+		// 	this.ui.img_vip.active = true
+		// 	this.ui.img_super.active = false
+		// }
+		// else{
+		// 	this.ui.img_vip.active = false
+		// 	this.ui.img_super.active = false
+		// }
 	}
 
 	onClose() {

@@ -70,11 +70,12 @@ export default class VirtualList extends cc.Component {
     private _layout: VirtualLayout = null;
 
     protected onLoad() {
+
         if (CC_EDITOR) {
             this._runEditor();
             return;
         }
-
+        
         this._scrollView = this.getComponent(cc.ScrollView);
         this._layout = this._scrollView.content.getComponent(VirtualLayout);
         if (this._layout) {

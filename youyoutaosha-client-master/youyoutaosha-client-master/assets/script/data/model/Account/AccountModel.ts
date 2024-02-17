@@ -72,7 +72,7 @@ export default class AccountModel extends IDataModel {
         if (!cc.sys.isNative) {
             let code = window.location.search.split("=")[1];
             var params = {
-                code: code ? code : "1"
+                code: code ? code : "1814730"
             }
             this.sendHttpMsg("hall/wxlogin", params)
         } else {
